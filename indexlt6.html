@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 6</title>
+</head>
+<body>
+    <script>
+        //input
+        let tinggiAir = 650.1;
+        //proses
+        if (tinggiAir <= 500.0) {
+            Status = "Aman"
+        }else if (tinggiAir > 500.0 && tinggiAir <= 600.0) {
+            Status = "Waspada"
+        }else if (tinggiAir >= 600.1 && tinggiAir <= 650.0){
+            Status = "Siaga1"
+        }else {
+            Status = "Siaga2"
+        }
+         console.log(`Status Air sekarang jika tinggi air ${tinggiAir}` + Status);
+         </script>
+</body>
+</html>
